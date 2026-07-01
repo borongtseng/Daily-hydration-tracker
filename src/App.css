@@ -3,6 +3,7 @@
   min-height: 100%;
   max-width: 480px;
   margin: 0 auto;
+  margin-top: 20px;
   padding: 48px 18px 56px;
   display: flex;
   flex-direction: column;
@@ -113,13 +114,15 @@
 
 .total-number {
   font-family: 'Fraunces', serif;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 500;
   color: var(--text);
   line-height: 1;
+  letter-spacing: 2px;
 }
 
 .total-unit {
+  font-family: 'Fraunces', serif;
   font-size: 22px;
   color: var(--text-dim);
   font-weight: 500;
@@ -162,8 +165,11 @@
 }
 
 .slider-value {
+  font-family: 'Fraunces', serif;
   color: var(--text);
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
 /* Slider — fill is set via inline style on the element */
@@ -178,8 +184,8 @@ input[type='range'] {
 
 input[type='range']::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 24px;
-  height: 24px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: white;
   border: 3px solid var(--aqua);
@@ -188,8 +194,8 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 input[type='range']::-moz-range-thumb {
-  width: 24px;
-  height: 24px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: white;
   border: 3px solid var(--aqua);
